@@ -21,3 +21,30 @@ I tried to keep the code as simple and readable as possible.
   - NREL 5 MW turbine  
   - NREL 15 MW turbine  
 - Allows analysis for selected years (default 1997–2008)
+
+---
+
+Classes Implemented
+WindResourceModel
+(located in src/wind_resource.py)
+
+This is the main class of the project.
+It stores the list of NetCDF files and provides functions to analyse the wind data.
+
+Key methods:
+
+load_data() → loads and merges all NetCDF files
+
+subset_years() → selects a range of years
+
+get_time_series_at_location() → interpolates to a chosen lat/lon
+
+power_law_profile() → estimates wind at any height
+
+fit_weibull() → finds Weibull scale and shape
+
+plot_speed_distribution() → histogram + Weibull
+
+plot_wind_rose() → wind rose diagram
+
+compute_aep() → calculates AEP for a turbine
