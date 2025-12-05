@@ -1,4 +1,4 @@
-# Project 3 – Wind Resource Assessment (Horns Rev)
+<img width="1121" height="154" alt="image" src="https://github.com/user-attachments/assets/0b14bb4e-2cc9-4cc7-85a7-7e76a8b25e72" /># Project 3 – Wind Resource Assessment (Horns Rev)
 
 This is my assignment for wind resource analysis using ERA5 data.  
 The goal is to load wind data from several NetCDF files and calculate different wind characteristics at a chosen location inside the Horns Rev area.
@@ -23,18 +23,17 @@ I tried to keep the code as simple and readable as possible.
 - Allows analysis for selected years (default 1997–2008)
 
 ## Folder structure
-
 Project03_46W38/
 │
 ├── src/
-│ ├── wind_resource.py # version for submission
+│   ├── wind_resource.py               # version for submission
 │
 ├── examples/
-│ └── main.py # simple script to run calculations
+│   └── main.py                        # simple script to run calculations
 │
 ├── tests/
-│ └── test_wind_resource.py # small tests for main functions
+│   └── test_wind_resource.py          # small tests for main functions
 │
-├── inputs/ # NetCDF + power curve files (not on GitHub)
+├── inputs/                            # NetCDF + power curve files (not uploaded)
 │
 └── README.md
