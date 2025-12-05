@@ -35,6 +35,6 @@ Project03_46W38/
 ├── tests/
 │ └── test_wind_resource.py # small tests for main functions
 │
-├── inputs/ # NetCDF and power curve files (not on GitHub)
+├── inputs/ # NetCDF + power curve files (not on GitHub)
 │
 └── README.md
