@@ -1,4 +1,4 @@
-<img width="1121" height="154" alt="image" src="https://github.com/user-attachments/assets/0b14bb4e-2cc9-4cc7-85a7-7e76a8b25e72" /># Project 3 – Wind Resource Assessment (Horns Rev)
+Project 3 – Wind Resource Assessment (Horns Rev)
 
 This is my assignment for wind resource analysis using ERA5 data.  
 The goal is to load wind data from several NetCDF files and calculate different wind characteristics at a chosen location inside the Horns Rev area.
